@@ -18,6 +18,7 @@ public class AlipayPlusTest {
         aliPayPlusMap.put("C069","Alipay Plus(PAYTM)" );
         aliPayPlusMap.put("C070","Alipay Plus(EASYPAISA)");
         aliPayPlusMap.put("C071","Alipay Plus(BKASH)");
+        aliPayPlusMap.put("C078","Alipay Plus(Connect_Wallet)");
 
         if (lang.equals("CN") && aliPayPlusMap.containsKey("C061"))
         {

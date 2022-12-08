@@ -15,6 +15,8 @@ public class hello {
         map.put("key03", "value03");
         map.put("key04", "value04");
         map.put("key05", "value05");
+        map.put("key0ㅅ", "value05");
+
 
 //        System.out.println(map.values().toArray()[0]);
 //        System.out.println(map.keySet().toArray()[0]);
