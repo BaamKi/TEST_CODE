@@ -28,7 +28,7 @@ public class InterFree {
 
         Iterator<String> keys = InterFreeMidTypeMap.keySet().iterator();
         while ( keys.hasNext() ) {
-            String key = keys.next();
+            String key = keys.n ext();
             if ("M100".equals(InterFreeMidTypeMap.get(key)) || "M101".equals(InterFreeMidTypeMap.get(key))) {
 	System.out.println(key + "는 일반 가맹점입니다.");
             } else if("M102".equals(InterFreeMidTypeMap.get(key)) || "M103".equals(InterFreeMidTypeMap.get(key))) {
